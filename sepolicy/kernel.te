@@ -1,2 +1,2 @@
-allow kernel audio_device:chr_file rw_file_perms;
-allow kernel efs_file:dir search;
+# TODO - root cause why the kernel generating this denial.
+allow kernel domain:process setsched;
